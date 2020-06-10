@@ -2,16 +2,16 @@
 create "resources"  in project route and extract file from "https://s3.amazonaws.com/divvy-data/tripdata/Divvy_Trips_2019_Q2.zip"  and put in resources folder and set "TRIP_FILE_PATH" in init.js
 ssh
 
-> Before running server 
->Set the token in env variable. 
->token=[sample token: pXeEcUxxJNPgBz3&T7UMBzmW*]
+Before running server*8
+Set the token in env variable.
+token=[sample token: pXeEcUxxJNPgBz3&T7UMBzmW*]
 
-##Docker Commands: 
-##docker build -t divvy_app:latest .
-##docker run -it -p 3000:3000 --env token='enter you token here' divvy_app /bin/bash
-##docker run  -p 3000:3000 -d --env token='enter your token here' divvy_app
+**Docker Commands:** 
+docker build -t divvy_app:latest .
+docker run -it -p 3000:3000 --env token='enter you token here' divvy_app /bin/bash
+docker run  -p 3000:3000 -d --env token='enter your token here' divvy_app
 
-##API END POINTS
+**API END POINTS**
 
 
 **station_info_by_station_id**
