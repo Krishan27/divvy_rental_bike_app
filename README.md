@@ -7,9 +7,9 @@ Set the token in env variable.
 token=[sample token: pXeEcUxxJNPgBz3&T7UMBzmW*]
 
 **Docker Commands:** 
-docker build -t divvy_app:latest .
-docker run -it -p 3000:3000 --env token='enter you token here' divvy_app /bin/bash
-docker run  -p 3000:3000 -d --env token='enter your token here' divvy_app
+docker build -t divvy_app:latest . </br>
+docker run -it -p 3000:3000 --env token='enter you token here' divvy_app /bin/bash </br>
+docker run  -p 3000:3000 -d --env token='enter your token here' divvy_app </br>
 
 **API END POINTS**
 
