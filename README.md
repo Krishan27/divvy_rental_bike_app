@@ -1,12 +1,12 @@
-# Divvy Rental Bike Project 
+# Divvy Rental Bike Project </br>
 create "resources"  in project route and extract file from "https://s3.amazonaws.com/divvy-data/tripdata/Divvy_Trips_2019_Q2.zip"  and put in resources folder and set "TRIP_FILE_PATH" in init.js
 ssh
+</br>
+Before running server </br>
+Set the token in env variable.</br>
+token=[sample token: pXeEcUxxJNPgBz3&T7UMBzmW*] </br>
 
-Before running server*8
-Set the token in env variable.
-token=[sample token: pXeEcUxxJNPgBz3&T7UMBzmW*]
-
-**Docker Commands:** 
+**Docker Commands:** </br>
 docker build -t divvy_app:latest . </br>
 docker run -it -p 3000:3000 --env token='enter you token here' divvy_app /bin/bash </br>
 docker run  -p 3000:3000 -d --env token='enter your token here' divvy_app </br>
