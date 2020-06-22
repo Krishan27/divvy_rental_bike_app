@@ -1,4 +1,4 @@
-**Divvy Rental Bike Project </br>
+**Divvy Rental Bike Project **</br>
 
 1. create "resources"  in project route </br>
 2. extract file from "https://s3.amazonaws.com/divvy-data/tripdata/Divvy_Trips_2019_Q2.zip"  </br>
