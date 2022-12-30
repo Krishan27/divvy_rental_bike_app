@@ -16,7 +16,7 @@
     "debug": "~2.6.9",
     "express": "~4.16.1",
     "fs": "0.0.1-security",
-    "mocha": "^7.2.0",
+    "mocha": "^10.2.0",
     "moment-timezone": "^0.5.31",
     "morgan": "~1.9.1",
     "sort-json-array": "^0.1.7",
